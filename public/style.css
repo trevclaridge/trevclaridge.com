@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+}
+
+footer {
+    background-color: #202024;
+    color: white;
+    padding: 1.5rem;
+    /* margin-block: 0;
+    margin-inline: 0; */
+}
+
+.copyright {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+header {
+    display: inline;
+}
+
+.header_list {
+    display: inline;
+    list-style-type: none;
+}
+
+.navigation {
+    list-style-type: none;
+}
