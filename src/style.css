@@ -79,6 +79,20 @@ mark {
     font-size: 3rem;
 }
 
+.article-subtitle {
+    text-align: center;
+    margin-block: 2em;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.article-image {
+    object-fit: cover;
+    object-position: center;
+    max-height: 20em;
+    object-position: center;
+}
+
 .article-content {
     line-height: 1.8;
 }

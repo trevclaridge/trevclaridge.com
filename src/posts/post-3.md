@@ -1,9 +1,11 @@
 ---
 title: Designing a dumb TTRPG that nobody will play, Devlog 1
 subtitle: What in the heck is this game anyway?
+img: ../../assets/images/kingdoms_map.png
+img_alt: A 3D model of a man's head made of an oily glass
 ---
 
-## Well, well, well . . . look who it's
+## Well, well, well . . . look who it's.
 
 Oh, you must be lost. You almost certainly didn't mean to come here; you probably meant to click on one of those TTRPG design blogs written by *good* designers that actually know what they're talking about. It's okay, I understand, I make mistakes, too. You know, like that one time I decided to start a blog about my attempts to design TTRPGs. Huuuge mistake.
 
