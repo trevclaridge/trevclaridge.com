@@ -53,6 +53,10 @@ header {
     display: flex
 }
 
+main {
+    padding: 3rem;
+}
+
 h1 {
     color: #dd7878
 }
