@@ -13,12 +13,29 @@ header {
     font-size: 2rem;
 }
 
-.website-title {
-    margin-inline-start: 30px;
+.header-wrapper {
+    margin-inline: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1em;
+    gap: 20px
 }
 
-.navigation {
+.header-wrapper p {
+    margin: 0;
+}
+
+.header-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.primary-navigation ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: flex
 }
 
 h1 {
