@@ -8,9 +8,9 @@
         <title>{{ title }}</title>
     </head>
     <body>
-        <div class="wrapper">
+        <div class="root-body">
             {% include 'header.njk' %}
-            <main>
+            <main class="wrapper">
                 {{ content | safe }}
             </main>
             {% include 'footer.njk' %}
