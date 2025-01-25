@@ -2,7 +2,7 @@
 title: Designing a dumb TTRPG that nobody will play, Devlog 1
 subtitle: What in the heck is this game anyway?
 img: ../../assets/images/kingdoms_map.png
-img_alt: A 3D model of a man's head made of an oily glass
+img_alt: An illustrated map overlayed with the Kingdoms in the Background logo.
 ---
 
 ## Well, well, well . . . look who it's.
