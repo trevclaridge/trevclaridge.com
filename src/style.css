@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #22213b;
-    color: white;
+    background-image: url("../../assets/images/marbled_paper.png");
+    background-position: left;
     font-size: 2rem;
 }
 
@@ -26,10 +26,18 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
+    background-color: white;
+    padding: 30px;
+    border: 5px solid red;
+}
+
+.website-title-by-line {
+    color: black;
+    font-size: 1.4rem
 }
 
 .website-title img {
-    width: 70px;
+    width: 90px;
 }
 
 .header-wrapper p {
@@ -37,12 +45,18 @@ header {
 }
 
 .header-wrapper a {
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
 .header-wrapper a:hover {
     text-decoration: underline;
+}
+
+.primary-navigation {
+    border: 5px solid red;
+    background-color: white;
+    padding: 30px;
 }
 
 .primary-navigation ul {
@@ -160,12 +174,16 @@ mark {
 }
 
 footer {
-    background-color: #22213b;
-    color: white;
+    background-image: url("../../assets/images/marbled_paper.png");
+    background-position: right;
     padding: 1.2rem;
 }
 
 .copyright {
+    border: 5px solid red;
+    color: red;
+    background-color: white;
+    padding: 30px;
     font-size: 1rem;
     text-align: center;
 }
