@@ -68,7 +68,7 @@ header {
 }
 
 main {
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 h1 {
@@ -117,7 +117,6 @@ mark {
     font-size: 2rem;
     text-decoration: none;
     color: #de9593;
-
     display: flex;
     gap: 20px;
 }
@@ -171,6 +170,10 @@ mark {
 
 .article-content {
     line-height: 1.8;
+}
+
+.article-content li:not(:first-of-type) {
+    margin-top: 20px;
 }
 
 footer {
