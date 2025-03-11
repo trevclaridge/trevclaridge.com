@@ -107,6 +107,7 @@ header {
     text-decoration: none;
 }
 
+.header-wrapper a:focus-visible,
 .header-wrapper a:hover {
     text-decoration: underline;
     text-underline-offset: 0.1em;
@@ -217,6 +218,7 @@ mark {
 .post-card a:focus-visible,
 .post-card a:hover {
     text-decoration: underline;
+    text-underline-offset: 0.1em;
 }
 
 .post-card-title {
