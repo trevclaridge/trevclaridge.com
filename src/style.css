@@ -151,6 +151,10 @@ mark {
     list-style-type: none;
 }
 
+.recent-posts li {
+    margin-bottom: 3em;
+}
+
 .post-card {
     margin-block: 20px;
 }
@@ -159,8 +163,13 @@ mark {
     font-size: 2rem;
     text-decoration: none;
     color: #de9593;
-    display: flex;
-    gap: 20px;
+}
+
+@media (min-width: 700px) {
+    .post-card a {
+        display: flex;
+        gap: 20px;
+    }
 }
 
 .post-card img {
@@ -223,7 +232,7 @@ footer {
     background-image: url("../../assets/images/marbled_paper.png");
     background-position: right;
     background-size: cover;
-    padding: 1.2rem;
+    padding: 0.8rem;
 }
 
 .copyright {
