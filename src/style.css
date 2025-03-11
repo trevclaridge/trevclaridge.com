@@ -44,7 +44,7 @@ header {
     text-align: center;
     align-items: center;
     background-color: white;
-    padding: 30px;
+    padding: 1em;
     border: 5px solid red;
 }
 
@@ -52,25 +52,28 @@ header {
     .website-title {
         display: flex;
         justify-content: center;
-        gap: 10px;
+        text-align: left;
+        gap: 0.4em;
     }
 }
+
+.website-title-text {
+    margin-top: 0.3em;
+}
+
 
 .website-title-text-main {
     font-family: ShadowHand;
     font-size: 3rem;
+    position: relative;
+    bottom: -0.1em;
 }
 
 .website-title-by-line {
     color: hsl(356, 14%, 21%);
     font-size: 1.4rem;
     font-weight: bold;
-}
-
-.website-logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: start;
 }
 
 .website-title img {
