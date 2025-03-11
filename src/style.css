@@ -1,10 +1,20 @@
+@font-face {
+    font-family: ShadowHand;
+    src: url("../../assets/fonts/ShadowHand.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: OpenSans;
 }
 
 header {
@@ -43,16 +53,18 @@ header {
         display: flex;
         justify-content: center;
         gap: 10px;
-        align-items: center;
-        background-color: white;
-        padding: 30px;
-        border: 5px solid red;
     }
 }
 
+.website-title-text-main {
+    font-family: ShadowHand;
+    font-size: 3rem;
+}
+
 .website-title-by-line {
-    color: black;
-    font-size: 1.4rem
+    color: hsl(356, 14%, 21%);
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 .website-logo {
@@ -77,6 +89,7 @@ header {
 
 .header-wrapper a:hover {
     text-decoration: underline;
+    text-underline-offset: 0.1em;
 }
 
 .primary-navigation {
@@ -86,6 +99,8 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 0.4em;
+    font-family: ShadowHand;
+    font-size: 2.5rem;
 }
 
 @media (min-width: 700px) {
@@ -191,7 +206,7 @@ mark {
 .post-card-subtitle {
     font-size: 1.2rem;
     margin-block: 0.5em;
-    color: black;
+    color: hsl(0, 20%, 22%);
     font-style: italic;
 }
 
@@ -237,7 +252,7 @@ footer {
 
 .copyright {
     border: 5px solid red;
-    color: red;
+    color: hsl(356, 14%, 21%);
     background-color: white;
     padding: 30px;
     font-size: 1rem;
