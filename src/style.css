@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: ShadowHand;
     src: url("../../assets/fonts/ShadowHand.ttf");
@@ -7,6 +9,21 @@
     font-family: OpenSans;
     src: url("../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
+
+/* Variables */
+:root {
+    /* Colors */
+    --primary-color: #dd7878;
+    --secondary-color: #de9593;
+    --tertiary-color: #64a3d8;
+    --highlight-color: #f2d5c6;
+    --text-color: #3d2e2f;
+    --accent-red: #ee1b1b;
+    --white-color: white;
+    --black-color: black;
+}
+
+/* Styling */
 
 * {
     box-sizing: border-box;
@@ -43,9 +60,9 @@ header {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--white-color);
     padding: 1em;
-    border: 5px solid red;
+    border: 5px solid var(--accent-red);
 }
 
 @media (min-width: 500px) {
@@ -70,7 +87,7 @@ header {
 }
 
 .website-title-by-line {
-    color: hsl(356, 14%, 21%);
+    color: var(--text-color);
     font-size: 1.4rem;
     font-weight: bold;
     justify-content: start;
@@ -86,7 +103,7 @@ header {
 }
 
 .header-wrapper a {
-    color: red;
+    color: var(--accent-red);
     text-decoration: none;
 }
 
@@ -96,8 +113,8 @@ header {
 }
 
 .primary-navigation {
-    border: 5px solid red;
-    background-color: white;
+    border: 5px solid var(--accent-red);
+    background-color: var(--white-color);
     padding: 0.6em;
     display: flex;
     justify-content: center;
@@ -129,18 +146,19 @@ header {
 
 main {
     padding: 1.5rem;
+    color: var(--text-color)
 }
 
 h1 {
-    color: #dd7878
+    color: var(--primary-color);
 }
 
 h2 {
-    color: #de9593
+    color: var(--secondary-color);
 }
 
 h3 {
-    color: #4f999f
+    color: var(--tertiary-color)
 }
 
 img {
@@ -150,7 +168,7 @@ img {
 }
 
 mark {
-    background-color: #f2d5c6;
+    background-color: var(--highlight-color);
     padding: 3px;
 }
 
@@ -180,7 +198,7 @@ mark {
 .post-card a {
     font-size: 2rem;
     text-decoration: none;
-    color: #de9593;
+    color: var(--secondary-color);
 }
 
 @media (min-width: 800px) {
@@ -209,7 +227,7 @@ mark {
 .post-card-subtitle {
     font-size: 1.2rem;
     margin-block: 0.5em;
-    color: hsl(0, 20%, 22%);
+    color: var(--text-color);
     font-style: italic;
 }
 
@@ -235,7 +253,6 @@ mark {
     object-fit: cover;
     object-position: center;
     max-height: 20em;
-    object-position: center;
 }
 
 .article-content {
@@ -254,9 +271,9 @@ footer {
 }
 
 .copyright {
-    border: 5px solid red;
-    color: hsl(356, 14%, 21%);
-    background-color: white;
+    border: 5px solid var(--accent-red);
+    color: var(--text-color);
+    background-color: var(--white-color);
     padding: 30px;
     font-size: 1rem;
     text-align: center;
