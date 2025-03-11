@@ -1,8 +1,8 @@
 ---
 title: What I like about Spells and Wizards
 subtitle: Some thoughts on spellcasting in D&D 5e
-img: ../../assets/images/kingdoms_map.png
-img_alt: An illustrated map overlayed with the Kingdoms in the Background logo.
+img: ../../assets/images/spell_cards.jpg
+img_alt: A set of custom-made spell cards.
 ---
 
 # Spells and Spellbooks
