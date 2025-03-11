@@ -18,6 +18,7 @@
     --tertiary-color: #64a3d8;
     --highlight-color: #f2d5c6;
     --text-color: #3d2e2f;
+    --text-lighter-color: #9a9293;
     --accent-red: #ee1b1b;
     --white-color: white;
     --black-color: black;
@@ -244,11 +245,11 @@ mark {
 }
 
 .article-subtitle {
+    color: var(--text-lighter-color);
     text-align: center;
     margin-block-start: 1em;
     margin-block-end: 2.3em;
     font-style: italic;
-    opacity: 0.7;
 }
 
 .article-image {
