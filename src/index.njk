@@ -13,6 +13,7 @@ layout: 'base.njk'
                         <div class="post-card-details">
                             <p class="post-card-title">{{ post.data.title }}</p>
                             <p class="post-card-subtitle">{{ post.data.subtitle }}</p>
+                            <p class="post-card-date">{{ post.date | formatDate }}</p>
                         </div>
                     </a>
                 </li>

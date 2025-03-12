@@ -5,6 +5,7 @@ layout: 'base.njk'
 <section class="article-snippet">
     <h1 class="article-title">{{title}}</h1>
     <p class="article-subtitle">{{subtitle}}</p>
+    <p class="article-date-created">{{page.date | formatDate }}</p>
     <img class="article-image" src="{{img}}" alt="{{img_alt}}"/>
     <div class="article-content">
         {{ content | safe }}

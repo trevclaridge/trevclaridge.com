@@ -234,6 +234,12 @@ mark {
     font-style: italic;
 }
 
+.post-card-date {
+    font-size: 1rem;
+    margin-block: 0.5em;
+    color: var(--text-lighter-color);
+}
+
 .article-snippet {
     max-inline-size: 70ch;
 }
@@ -248,8 +254,13 @@ mark {
     color: var(--text-lighter-color);
     text-align: center;
     margin-block-start: 1em;
-    margin-block-end: 2.3em;
     font-style: italic;
+}
+
+.article-date-created {
+    color: var(--text-lighter-color);
+    text-align: center;
+    margin-block-end: 2em;
 }
 
 .article-image {
