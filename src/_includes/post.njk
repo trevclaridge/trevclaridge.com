@@ -3,11 +3,27 @@ layout: 'base.njk'
 ---
 
 <section class="article-snippet">
-    <h1 class="article-title">{{title}}</h1>
-    <p class="article-subtitle">{{subtitle}}</p>
-    <p class="article-date-created">{{page.date | formatDate }}</p>
-    <img class="article-image" src="{{img}}" alt="{{img_alt}}"/>
+    <h1 class="article-title">{{ title }}</h1>
+    <p class="article-subtitle">{{ subtitle }}</p>
+    <p class="article-date-created">{{ page.date | formatDate }}</p>
+    <img class="article-image" src="{{ img }}" alt="{{ img_alt }}"/>
     <div class="article-content">
         {{ content | safe }}
+    </div>
+    <div>
+        {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+        {% set nextPost = collections.post | getNextCollectionItem(page) %}
+        {% if previousPost %}
+            <p>
+                <strong>Previous:</strong>
+                <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+            </p>
+        {% endif %}
+        {% if nextPost %}
+            <p>
+                <strong>Next:</strong>
+                <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+            </p>
+        {% endif %}
     </div>
 </section>
