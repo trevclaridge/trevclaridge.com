@@ -1,0 +1,19 @@
+---
+title: trevclaridge.com blog archive
+layout: 'base.njk'
+---
+
+<h1>Archive</h1>
+<ul class="archive-posts">
+    {% for post in collections.post | reverse %}
+        <li class="post-card archive">
+            <a href="{{ post.url }}">
+                <div class="post-card-details">
+                    <p class="post-card-title archive">{{ post.data.title }}</p>
+                    <p class="post-card-subtitle archive">{{ post.data.subtitle }}</p>
+                    <p class="post-card-date archive">{{ post.date | formatDate }}</p>
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
