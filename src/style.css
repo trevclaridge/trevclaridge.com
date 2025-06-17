@@ -63,6 +63,19 @@ p {
     line-height: 2em;
 }
 
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+
+
+}
+
+a:focus-visible,
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+}
+
 li {
     line-height: 2em;
 }
@@ -217,8 +230,6 @@ body {
 
 .post-card a {
     font-size: 2rem;
-    text-decoration: none;
-    color: var(--secondary-color);
 }
 
 @media (min-width: 800px) {
@@ -232,12 +243,7 @@ body {
     object-fit: cover;
     object-position: center;
     max-inline-size: 10em;
-}
-
-.post-card a:focus-visible,
-.post-card a:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.1em;
+    margin-block-end: 0.3em;
 }
 
 .post-card-title {
