@@ -3,20 +3,33 @@ title: trevclaridge.com
 layout: 'base.njk'
 ---
 
-<h1>Recent Posts</h1>
-<ul class="recent-posts">
-    {% for post in collections.post | reverse %}
-        {% if loop.index0 < 3 %}
-            <li class="post-card">
-                <a href="{{ post.url }}">
-                    <img src="{{ post.data.img }}" alt="{{ post.data.img_alt }}">
-                        <div class="post-card-details">
-                            <p class="post-card-title">{{ post.data.title }}</p>
-                            <p class="post-card-subtitle">{{ post.data.subtitle }}</p>
-                            <p class="post-card-date">{{ post.date | formatDate }}</p>
-                        </div>
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
-    </ul>
+<section class="home-page-welcome">
+    <h1 class="home-page-welcome-hi-there">Hi there!</h1>
+    <p>I'm so glad you made it my little corner of the internet! My name is Trevor and I write about anything and everything
+        that interests me. Primarily this includes
+        <strong>tabletop role-playing games</strong>,
+        <strong>software development</strong>, and
+        <strong>arts & crafts</strong>. See below for some of my most recent blog posts or click
+        <a href="/blog">here</a>
+        for the full historical list.
+    </p>
+</section>
+<section class="recent-posts">
+    <h1>Recent Posts</h1>
+    <ul>
+        {% for post in collections.post | reverse %}
+            {% if loop.index0 < 3 %}
+                <li class="post-card">
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.data.img }}" alt="{{ post.data.img_alt }}">
+                            <div class="post-card-details">
+                                <p class="post-card-title">{{ post.data.title }}</p>
+                                <p class="post-card-subtitle">{{ post.data.subtitle }}</p>
+                                <p class="post-card-date">{{ post.date | formatDate }}</p>
+                            </div>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
