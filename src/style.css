@@ -3,11 +3,13 @@
 @font-face {
     font-family: ShadowHand;
     src: url("../../assets/fonts/ShadowHand.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: OpenSans;
     src: url("../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+    font-display: swap;
 }
 
 /* Variables */
