@@ -5,7 +5,7 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         filenameFormat: function (id, src, width, format, options) {
-            return `${id}-${width}.${format}`
+            return `${src}-${width}.${format}`
         },
     });
 
