@@ -4,6 +4,16 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+        formats: ["avif", "webp", "jpeg", "svg"],
+        svgShortCircuit: "size",
+        svgCompressionSize: "br",
+        transformOnRequest: false,
+        htmlOptions: {
+            imgAttributes: {
+                loading: "lazy",
+                decoding: "async",
+            },
+        },
         filenameFormat: function (id, src, width, format, options) {
             return `${src}-${width}.${format}`
         },
