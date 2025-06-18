@@ -1,14 +1,17 @@
 const { DateTime } = require("luxon");
 const markdownItMark = require("markdown-it-mark");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+    eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItMark));
+
+
     eleventyConfig.addPassthroughCopy('./src/style.css');
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/posts')
 
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-
-    eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItMark));
 
     eleventyConfig.addFilter("formatDate", (dateString) => {
         dateObj = new Date(dateString);
