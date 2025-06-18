@@ -1,7 +1,7 @@
 ---
 title: Designing a dumb TTRPG that nobody will play, Devlog 1
 subtitle: What in the heck is this game anyway?
-img: ../../assets/images/kingdoms_map.png
+img: kingdoms_map.png
 img_alt: An illustrated map overlayed with the Kingdoms in the Background logo.
 date: 2024-06-27
 ---
@@ -22,7 +22,7 @@ Okay, now that you're fully enamored by me and my super fun and hip writing styl
 
 **Well, nondescript child-like character, do I have the solution for you! Introducing** ***KINGDOMS IN THE BACKGROUND*!**\* (\**working title*).
 
-![Kingdoms In The Background Logo](../../assets/images/KITB_logo.png)
+![Kingdoms In The Background Logo](KITB_logo.png)
 
 Yes, I'm very aware it's an awful title and even worse logo. I put it down one day in a document that needed a title and it just sorta . . . stuck. It's temporary. In later posts, I'll explain what that title means and where it comes from.
 
@@ -50,7 +50,7 @@ The basic definition is thus: *not happening at the same time or place*. Think o
 The best example is actually related to this game's use case:
 Say I send you a text:
 
-![A Discord message from me that reads, "If you were a piece of silverware, do you think you'd be a knife, spoon, fork, or something else?"](../../assets/images/discord_message_1.png)
+![A Discord message from me that reads, "If you were a piece of silverware, do you think you'd be a knife, spoon, fork, or something else?"](discord_message_1.png)
 
 The time you take to respond, or even read the message, is entirely up to you. Our communication is asynchronous, it's not happening at the same time, we aren't having a real-time conversation. Rather, our back and forth is split over a variable time frame. You can send me a message (or multiple) whenever you feel like it, and then I can turn around and do the same. It could be that I send you a response in 10 seconds, but it could just as well be 10 minutes, 10 hours, multiple days; different to a conversation in person or over the phone, there's an text-etiquette-based understanding that our communication is going to be segmented and stretched over the many smaller points in our lives where we are *available* to communicate.
 
@@ -70,7 +70,7 @@ Sure, let's zoom in on that:
 
 You start in a tavern, you introduce characters, you explore the starting town, you talk to NPCs. All of this is going swell via messages, everyone is having a great time and you're getting to connect with those friends you haven't really talked to in earnest in a long time. Brilliant!
 
-![A Discord message from me that reads, "Roll initiative."](../../assets/images/discord_message_2.png)
+![A Discord message from me that reads, "Roll initiative."](discord_message_2.png)
 
 Now you're in a turn-based combat. It's the halfling rogue's turn and they haven't been responding for past few hours. You don't want to just skip their turn because their character was holding the special key that was going unlock the glowing door and save the day. On top of that, you don't want to just have another character take the key from the halfling because this key and this door has special significance to the halfling's backstory.
 

@@ -21,7 +21,7 @@ layout: 'base.njk'
             {% if loop.index0 < 3 %}
                 <li class="post-card">
                     <a href="{{ post.url }}">
-                        <img src="{{ post.data.img }}" alt="{{ post.data.img_alt }}">
+                        <img src="/posts/{{ post.fileSlug }}/{{ post.data.img }}" alt="{{ post.data.img_alt }}">
                             <div class="post-card-details">
                                 <p class="post-card-title">{{ post.data.title }}</p>
                                 <p class="post-card-subtitle">{{ post.data.subtitle }}</p>
