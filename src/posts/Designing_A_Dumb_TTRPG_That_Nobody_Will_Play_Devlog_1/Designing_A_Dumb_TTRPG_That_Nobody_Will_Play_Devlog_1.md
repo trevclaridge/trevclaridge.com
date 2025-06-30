@@ -6,7 +6,7 @@ img_alt: An illustrated map overlayed with the Kingdoms in the Background logo.
 date: 2024-06-27
 ---
 
-## Well, well, well . . . look who it's.
+## Well, well, well . . . look who it's
 
 Oh, you must be lost. You almost certainly didn't mean to come here; you probably meant to click on one of those TTRPG design blogs written by *good* designers that actually know what they're talking about. It's okay, I understand, I make mistakes, too. You know, like that one time I decided to start a blog about my attempts to design TTRPGs. Huuuge mistake.
 
@@ -37,13 +37,13 @@ Let's break that down like a church youth group breaks down a Bible verse: by ea
 Okay, so this is "two words," whatever.
 For those in the know, this is equivalent to play-by-post, full stop. For those who took the seats all the way in the back and are just playing games on their phones, play-by-post, PBP, is a long standing tradition in the tabletop hobby of playing roleplaying games online, in post form, with historical roots in the forums and message boards of the early internet. Instead of meeting at an agreed upon time around a table or in a voice/video chat using something like Discord or Skype, PBP games have players driving the story by writing and posting what their characters do in a general online chat, and doing so whenever they have a chance in their day in leu of a game "session".
 
-There is an excellent video describing the concepts of play-by-post [here](https://youtu.be/iKFxXymWx0A?si=97qeqMnHZEqjcHK4) by Stuart Langridge.
+[There is an excellent video describing the concepts of play-by-post here by Stuart Langridge](ttps://youtu.be/iKFxXymWx0A?si=97qeqMnHZEqjcHK4).
 
 "Whenever they have a chance" leads straight into. . .
 
 ### asynchronous
 
-This is probably the least familiar aspect by name, but will quickly become reveal to be something that everyone is familiar with. It's certainly the one that's been behind most of the design issues I'm still grappling with for this game. It's a term I stole from my background in software development.
+This is probably the least familiar aspect by name, but will quickly reveal to be something that everyone is familiar with. It's certainly the one that's been behind most of the design issues I'm still grappling with for this game. It's a term I stole from my background in software development.
 
 The basic definition is thus: *not happening at the same time or place*. Think of terms like "independent study" and "multi-threaded".
 
