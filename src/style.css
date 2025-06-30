@@ -322,6 +322,10 @@ body {
     margin-top: 20px;
 }
 
+.article-snippet .article-content .article-content-list {
+    margin-top: 0;
+}
+
 footer {
     background-image: url("../../assets/images/marbled_paper.jpg");
     background-position: right;
