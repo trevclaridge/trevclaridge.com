@@ -37,7 +37,7 @@ Let's break that down like a church youth group breaks down a Bible verse: by ea
 Okay, so this is "two words," whatever.
 For those in the know, this is equivalent to play-by-post, full stop. For those who took the seats all the way in the back and are just playing games on their phones, play-by-post, PBP, is a long standing tradition in the tabletop hobby of playing roleplaying games online, in post form, with historical roots in the forums and message boards of the early internet. Instead of meeting at an agreed upon time around a table or in a voice/video chat using something like Discord or Skype, PBP games have players driving the story by writing and posting what their characters do in a general online chat, and doing so whenever they have a chance in their day in leu of a game "session".
 
-[There is an excellent video describing the concepts of play-by-post here by Stuart Langridge](ttps://youtu.be/iKFxXymWx0A?si=97qeqMnHZEqjcHK4).
+[There is an excellent video describing the concepts of play-by-post here by Stuart Langridge](https://youtu.be/iKFxXymWx0A?si=97qeqMnHZEqjcHK4).
 
 "Whenever they have a chance" leads straight into. . .
 
