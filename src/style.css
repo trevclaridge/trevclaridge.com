@@ -17,7 +17,7 @@
   /* Colors */
   --primary-color: #d85a5a;
   --secondary-color: #d37573;
-  --tertiary-color: #64a3d8;
+  --tertiary-color: #538bcc;
   --highlight-color: #f2d5c6;
   --text-color: #3d2e2f;
   --text-lighter-color: #6b6565;
@@ -286,8 +286,22 @@ body {
   list-style-type: none;
 }
 
+.archive-posts a:focus-visible,
+.archive-posts a:hover {
+  text-decoration: none;
+}
+
 .post-card-title.archive {
   font-size: 1.4rem;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.1em;
+}
+
+.post-card-title.archive:hover {
+  text-decoration-thickness: 0.2em;
 }
 
 .post-card.archive {
@@ -322,10 +336,6 @@ body {
   object-position: center;
   max-height: 20em;
 }
-
-/* .article-content {
-    line-height: 1.8;
-} */
 
 .article-content li:not(:first-of-type) {
   margin-top: 20px;
