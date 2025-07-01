@@ -15,13 +15,14 @@
 /* Variables */
 :root {
   /* Colors */
-  --primary-color: #dd7878;
-  --secondary-color: #de9593;
-  --tertiary-color: #64a3d8;
+  --primary-color: #d85a5a;
+  --secondary-color: #d37573;
+  --tertiary-color: #538bcc;
   --highlight-color: #f2d5c6;
   --text-color: #3d2e2f;
-  --text-lighter-color: #9a9293;
+  --text-lighter-color: #6b6565;
   --accent-red: #ee1b1b;
+  --link-color: #ee5d5a;
   --white-color: white;
   --black-color: black;
 }
@@ -67,14 +68,15 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: var(--secondary-color);
+  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.1em;
 }
 
 a:focus-visible,
 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.2em;
 }
 
 li {
@@ -228,7 +230,17 @@ body {
 }
 
 .post-card a {
+  text-decoration: none;
   font-size: 2rem;
+  color: var(--link-color);
+}
+
+.post-card a:focus-visible,
+.post-card a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-decoration-color: var(--link-color);
 }
 
 @media (min-width: 800px) {
@@ -274,8 +286,22 @@ body {
   list-style-type: none;
 }
 
+.archive-posts a:focus-visible,
+.archive-posts a:hover {
+  text-decoration: none;
+}
+
 .post-card-title.archive {
   font-size: 1.4rem;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.1em;
+}
+
+.post-card-title.archive:hover {
+  text-decoration-thickness: 0.2em;
 }
 
 .post-card.archive {
@@ -310,10 +336,6 @@ body {
   object-position: center;
   max-height: 20em;
 }
-
-/* .article-content {
-    line-height: 1.8;
-} */
 
 .article-content li:not(:first-of-type) {
   margin-top: 20px;
