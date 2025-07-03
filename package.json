@@ -13,6 +13,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
     "@mdit/plugin-container": "^0.16.0",
     "markdown-it-mark": "^4.0.0"
   }
