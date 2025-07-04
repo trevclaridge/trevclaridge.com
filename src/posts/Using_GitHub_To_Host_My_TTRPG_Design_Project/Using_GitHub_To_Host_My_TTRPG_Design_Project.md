@@ -1,6 +1,6 @@
 ---
 title: Using GitHub To Host My TTRPG Design Project
-subtitle: Getting organized and tracking the iterations of my game with git!
+subtitle: Getting organized and tracking the iterations of my game with Git!
 img: writ-of-rulers-github-notes.png
 img_alt: A pile of scattered papers and notes from the design of of Writ of Rulers.
 date: 2025-07-04
