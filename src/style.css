@@ -211,6 +211,7 @@ body {
 
 .wrapper {
   margin-inline: auto;
+  max-inline-size: 100%;
 }
 
 .home-page-welcome {
