@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: ShadowHand;
-  src: url("../../assets/fonts/ShadowHand.ttf");
+  src: url("../fonts/ShadowHand.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url("../../assets/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
   font-display: swap;
 }
 
@@ -34,7 +34,7 @@
 }
 
 header {
-  background-image: url("../../assets/images/marbled_paper.jpg");
+  background-image: url("../images/marbled_paper.jpg");
   background-size: cover;
   background-position: left;
   font-size: 2rem;
@@ -347,7 +347,7 @@ body {
 }
 
 footer {
-  background-image: url("../../assets/images/marbled_paper.jpg");
+  background-image: url("../images/marbled_paper.jpg");
   background-position: right;
   background-size: cover;
   padding: 0.8rem;

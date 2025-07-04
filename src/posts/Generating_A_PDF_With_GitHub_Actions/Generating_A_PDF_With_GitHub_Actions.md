@@ -8,7 +8,7 @@ date: 2025-07-03
 
 # Use Case
 
-In the post before this one, I talked a bit about my process in migrating my notes on my current game design project to GitHub. This comes with a variety of benefits, one of which led me down a rabbit hole that, admittedly, shaved a few years off my life.
+In the post before this one, I talked a bit about my process and reasoning in migrating my notes on my current game design project to GitHub. This comes with a variety of benefits, one of which led me down a rabbit hole that, admittedly, shaved a few years off my life.
 
 ```yaml
 # This action generates a PDF from all of the game's writing.
