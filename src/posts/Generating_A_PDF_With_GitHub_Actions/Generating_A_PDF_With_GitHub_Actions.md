@@ -1,8 +1,8 @@
 ---
-title: Generating a PDF With GitHub Actions
-subtitle: Leveraging Pandoc to generate a high-quality PDF from source Markdown files
+title: Generating a PDF with GitHub Actions
+subtitle: Leveraging Pandoc to generate a high-quality PDF from Markdown source files.
 img: build_pdf_yml.png
-img_alt: A GitHub workflow YAML file with steps to utilize Pandoc
+img_alt: A GitHub workflow YAML file with steps to utilize Pandoc.
 date: 2025-07-03
 ---
 
@@ -64,5 +64,4 @@ jobs:
           tag: "Writ_of_Rulers_v${{ github.run_number }}"
           name: "Writ of Rulers v${{ github.run_number }}"
           makeLatest: true
-
 ```
