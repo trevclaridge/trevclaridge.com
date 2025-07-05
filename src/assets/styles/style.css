@@ -1,0 +1,368 @@
+/* Fonts */
+
+@font-face {
+  font-family: ShadowHand;
+  src: url("../fonts/ShadowHand.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-display: swap;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --primary-color: #d85a5a;
+  --secondary-color: #d37573;
+  --tertiary-color: #538bcc;
+  --quaternary-color: #305074;
+  --highlight-color: #f2d5c6;
+  --text-color: #3d2e2f;
+  --text-lighter-color: #6b6565;
+  --accent-red: #ee1b1b;
+  --link-color: #ee5d5a;
+  --white-color: white;
+  --black-color: black;
+}
+
+/* Styling */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../images/marbled_paper.jpg");
+  background-size: cover;
+  background-position: left;
+  font-size: 2rem;
+}
+
+main {
+  padding: 1.5rem;
+  color: var(--text-color);
+}
+
+h1 {
+  margin-block: 0.67em;
+  font-size: 2em;
+  color: var(--primary-color);
+}
+
+section h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--tertiary-color);
+}
+
+h4 {
+  color: var(--quaternary-color);
+}
+
+p {
+  line-height: 2em;
+}
+
+a {
+  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.1em;
+}
+
+a:focus-visible,
+a:hover {
+  text-decoration-thickness: 0.2em;
+}
+
+li {
+  line-height: 2em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+mark {
+  background-color: var(--highlight-color);
+  padding: 3px;
+}
+
+body {
+  margin: 0;
+  font-family: OpenSans;
+}
+
+.header-wrapper {
+  margin-inline: 1em;
+  margin-block: 1em;
+  display: block;
+}
+
+.website-title img {
+  margin: auto;
+  max-width: 3em;
+}
+
+.header-wrapper p {
+  margin: 0;
+  line-height: 1em;
+}
+
+@media (min-width: 800px) {
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+.website-title {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--white-color);
+  padding: 1em;
+  border: 5px solid var(--accent-red);
+}
+
+@media (min-width: 500px) {
+  .website-title {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 0.4em;
+  }
+}
+
+.website-title-text {
+  margin-top: 0.3em;
+}
+
+.website-title-text-main {
+  font-family: ShadowHand;
+  font-size: 3rem;
+  position: relative;
+  bottom: -0.1em;
+}
+
+.header-wrapper .website-title-by-line {
+  color: var(--text-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-block-start: 0.3em;
+}
+
+.header-wrapper a {
+  color: var(--accent-red);
+  text-decoration: none;
+}
+
+.header-wrapper a:focus-visible,
+.header-wrapper a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+}
+
+.primary-navigation {
+  border: 5px solid var(--accent-red);
+  background-color: var(--white-color);
+  padding: 0.6em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.4em;
+  font-family: ShadowHand;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 800px) {
+  .primary-navigation {
+    margin: 0;
+  }
+}
+
+.primary-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 800px) {
+  .primary-navigation ul {
+    list-style-type: none;
+    gap: 20px;
+    display: flex;
+  }
+}
+
+.root-body {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.wrapper {
+  margin-inline: auto;
+  max-inline-size: 100%;
+}
+
+.home-page-welcome {
+  max-inline-size: 70ch;
+}
+
+.recent-posts ul {
+  list-style-type: none;
+}
+
+.recent-posts li {
+  margin-bottom: 3em;
+}
+
+.post-card {
+  margin-block: 20px;
+}
+
+.post-card a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--link-color);
+}
+
+.post-card a:focus-visible,
+.post-card a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-decoration-color: var(--link-color);
+}
+
+@media (min-width: 800px) {
+  .post-card a {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.post-card img {
+  object-fit: cover;
+  object-position: center;
+  max-inline-size: 10em;
+  margin-block-end: 0.3em;
+}
+
+.post-card-title {
+  font-size: 2rem;
+  margin-block: 0;
+  line-height: 1.2em;
+}
+
+.post-card-subtitle {
+  font-size: 1.2rem;
+  margin-block: 0.5em;
+  color: var(--text-color);
+  font-style: italic;
+  line-height: 1.2em;
+}
+
+.post-card-date {
+  font-size: 1rem;
+  margin-block: 0.5em;
+  color: var(--text-lighter-color);
+  line-height: 1.6em;
+}
+
+.archive {
+  margin-block: 0;
+}
+
+.archive-posts {
+  list-style-type: none;
+}
+
+.archive-posts a:focus-visible,
+.archive-posts a:hover {
+  text-decoration: none;
+}
+
+.post-card-title.archive {
+  font-size: 1.4rem;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 0.1em;
+}
+
+.post-card-title.archive:hover {
+  text-decoration-thickness: 0.2em;
+}
+
+.post-card.archive {
+  margin-block-end: 20px;
+}
+
+.article-snippet {
+  max-inline-size: 70ch;
+}
+
+.article-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-block-end: 0.2em;
+}
+
+.article-subtitle {
+  color: var(--text-lighter-color);
+  text-align: center;
+  margin-block-start: 1em;
+  font-style: italic;
+}
+
+.article-date-created {
+  color: var(--text-lighter-color);
+  text-align: center;
+  margin-block-end: 2em;
+}
+
+.article-image {
+  object-fit: cover;
+  object-position: center;
+  max-height: 20em;
+}
+
+.article-content li:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.article-snippet .article-content .article-content-list {
+  margin-top: 0;
+}
+
+footer {
+  background-image: url("../images/marbled_paper.jpg");
+  background-position: right;
+  background-size: cover;
+  padding: 0.8rem;
+}
+
+.copyright {
+  border: 5px solid var(--accent-red);
+  color: var(--text-color);
+  background-color: var(--white-color);
+  padding: 30px;
+  font-size: 1rem;
+  text-align: center;
+}
