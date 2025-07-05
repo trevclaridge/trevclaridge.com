@@ -18,6 +18,7 @@
   --primary-color: #d85a5a;
   --secondary-color: #d37573;
   --tertiary-color: #538bcc;
+  --quaternary-color: #305074;
   --highlight-color: #f2d5c6;
   --text-color: #3d2e2f;
   --text-lighter-color: #6b6565;
@@ -61,6 +62,10 @@ h2 {
 
 h3 {
   color: var(--tertiary-color);
+}
+
+h4 {
+  color: var(--quaternary-color);
 }
 
 p {
