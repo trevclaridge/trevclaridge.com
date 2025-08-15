@@ -1,6 +1,6 @@
 ---
 title: What I like about Spells and Wizards
-subtitle: Some thoughts on spellcasting in D&D 5e
+subtitle: Some thoughts on spellcasting in D&D 5e.
 img: spell_cards.jpg
 img_alt: A set of custom-made spell cards.
 date: 2024-07-31

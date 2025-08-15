@@ -362,8 +362,7 @@ body {
 
 .article-content img {
   max-height: 30em;
-  width: auto;
-  max-width: 70ch;
+  object-fit: contain;
 }
 
 .article-content li:not(:first-of-type) {
