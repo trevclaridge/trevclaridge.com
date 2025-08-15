@@ -6,7 +6,7 @@ layout: 'base.njk'
     <h1 class="article-title">{{ title }}</h1>
     <p class="article-subtitle">{{ subtitle }}</p>
     <ul class="article-tags">
-        {% for tag in tags | exclude("post") %}
+        {% for postTag in tags | exclude("post") %}
             {% include 'tag.njk' %}
         {% endfor %}
     </ul>

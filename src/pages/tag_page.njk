@@ -19,6 +19,11 @@ eleventyComputed:
                     <p class="post-card-title archive">{{ post.data.title }}</p>
                     <p class="post-card-subtitle archive">{{ post.data.subtitle }}</p>
                     <p class="post-card-date archive">{{ post.date | formatDate }}</p>
+                    <ul class="post-card-tags archive">
+                        {% for postTag in post.data.tags %}
+                            {% include 'tag.njk' %}
+                        {% endfor %}
+                    </ul>
                 </div>
             </a>
         </li>
