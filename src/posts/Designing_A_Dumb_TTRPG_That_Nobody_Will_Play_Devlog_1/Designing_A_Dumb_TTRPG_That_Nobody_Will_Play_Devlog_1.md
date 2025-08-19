@@ -4,6 +4,9 @@ subtitle: What in the heck is this game anyway?
 img: kingdoms_map.png
 img_alt: An illustrated map overlaid with the Kingdoms in the Background logo.
 date: 2024-06-27
+tags:
+  - ttrpgs
+  - devlog
 ---
 
 ## Well, well, well . . . look who it's

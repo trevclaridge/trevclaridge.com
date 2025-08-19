@@ -4,6 +4,8 @@ subtitle: Leveraging Pandoc to generate a high-quality PDF from Markdown source 
 img: build_pdf_yml.png
 img_alt: A GitHub workflow YAML file with steps to utilize Pandoc.
 date: 2025-07-06
+tags:
+  - development
 ---
 
 **!! For those looking for the technical solution I came to, my entire workflow yaml file can be found at the end, along with a link to the file in GitHub in case of any changes. !!**

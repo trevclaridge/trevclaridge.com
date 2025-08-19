@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
         dateObj = new Date(dateString);
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toLocaleString(DateTime.DATE_MED);
     });
+    eleventyConfig.addFilter("exclude", (arr, exclude) => arr.filter(el => el !== exclude));
 
     return {
         dir: {

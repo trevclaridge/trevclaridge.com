@@ -1,0 +1,16 @@
+<li class="post-card">
+    <a href="{{ post.url }}">
+        <img src="/posts/{{ post.fileSlug }}/{{ post.data.img }}" alt="{{ post.data.img_alt }}">
+            <div class="post-card-details">
+                <p class="post-card-title">{{ post.data.title }}</p>
+                <p class="post-card-subtitle">{{ post.data.subtitle }}</p>
+                {# <ul class="article-tags">
+                                    {% for tag in post.data.tags | exclude("post") %}
+                                        {% include 'tag.njk' %}
+                                    {% endfor %}
+                                </ul> #}
+                <p class="post-card-date">{{ post.date | formatDate }}</p>
+            </div>
+        </a>
+    </li>
+</li>
