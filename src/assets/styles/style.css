@@ -233,7 +233,6 @@ body {
 
 .post-card {
   margin-block: 20px;
-  display: flex;
   gap: 20px;
 }
 
@@ -273,8 +272,8 @@ body {
 }
 
 @media (min-width: 800px) {
-  .post-card a {
-    display: block;
+  .post-card {
+    display: flex;
     gap: 20px;
   }
 }
